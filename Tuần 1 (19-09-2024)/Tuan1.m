@@ -1,5 +1,4 @@
 clear
-clc
 hc = 40; P = 0.016; k = 240; Ac = 1.6e-5;
 h = 0.02; x = 0 : 0.02 : 0.1;
 beta = hc*P/(k*Ac); aDiag = -2 - h^2 * beta;
